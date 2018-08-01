@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3caffcf-4b33-42e2-8695-6b8c5f24a1f9" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Duck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy_pattern/Duck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding>
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/strategy_pattern.Duck" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/strategy_pattern.Duck">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>strategy_pattern.Duck</OriginalElement>
+              <nodes>
+                <node x="0.0" y="301.0">strategy_pattern.RedheadDuck</node>
+                <node x="179.24999999999994" y="0.0">strategy_pattern.Duck</node>
+                <node x="506.99999999999994" y="289.5">strategy_pattern.RubberDuck</node>
+                <node x="165.99999999999994" y="289.0">strategy_pattern.MallardDuck</node>
+                <node x="339.99999999999994" y="289.0">strategy_pattern.ModelDuck</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="strategy_pattern.RedheadDuck" target="strategy_pattern.Duck">
+                  <point x="0.0" y="-26.5" />
+                  <point x="73.0" y="264.0" />
+                  <point x="216.49999999999994" y="264.0" />
+                  <point x="-111.75" y="119.5" />
+                </edge>
+                <edge source="strategy_pattern.RubberDuck" target="strategy_pattern.Duck">
+                  <point x="0.0" y="-38.0" />
+                  <point x="580.0" y="264.0" />
+                  <point x="439.99999999999994" y="264.0" />
+                  <point x="111.75" y="119.5" />
+                </edge>
+                <edge source="strategy_pattern.ModelDuck" target="strategy_pattern.Duck">
+                  <point x="0.0" y="-38.5" />
+                  <point x="413.49999999999994" y="264.0" />
+                  <point x="365.49999999999994" y="264.0" />
+                  <point x="37.25" y="119.5" />
+                </edge>
+                <edge source="strategy_pattern.MallardDuck" target="strategy_pattern.Duck">
+                  <point x="0.0" y="-38.5" />
+                  <point x="242.99999999999994" y="264.0" />
+                  <point x="290.99999999999994" y="264.0" />
+                  <point x="-37.25" y="119.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="38.5" y="112.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Constructors</Category>
+                <Category>Inner Classes</Category>
+                <Category>Methods</Category>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedheadDuck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy_pattern/RedheadDuck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RubberDuck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy_pattern/RubberDuck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlyBehavior.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy_pattern/FlyBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/strategy_pattern.FlyBehavior" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/strategy_pattern.FlyBehavior">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>strategy_pattern.FlyBehavior</OriginalElement>
+              <nodes>
+                <node x="0.0" y="103.0">strategy_pattern.FlyNoWay</node>
+                <node x="141.5" y="0.0">strategy_pattern.FlyBehavior</node>
+                <node x="283.0" y="103.0">strategy_pattern.FlyRocketPowered</node>
+                <node x="138.0" y="103.0">strategy_pattern.FlyWithWings</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="strategy_pattern.FlyWithWings" target="strategy_pattern.FlyBehavior">
+                  <point x="0.0" y="-26.5" />
+                  <point x="0.0" y="26.5" />
+                </edge>
+                <edge source="strategy_pattern.FlyNoWay" target="strategy_pattern.FlyBehavior">
+                  <point x="0.0" y="-26.5" />
+                  <point x="59.0" y="78.0" />
+                  <point x="161.16666666666666" y="78.0" />
+                  <point x="-39.33333333333334" y="26.5" />
+                </edge>
+                <edge source="strategy_pattern.FlyRocketPowered" target="strategy_pattern.FlyBehavior">
+                  <point x="0.0" y="-26.5" />
+                  <point x="360.0" y="78.0" />
+                  <point x="239.83333333333337" y="78.0" />
+                  <point x="39.33333333333337" y="26.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-405.0" y="-18.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuackBehavior.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy_pattern/QuackBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/strategy_pattern.QuackBehavior" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/strategy_pattern.QuackBehavior">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>strategy_pattern.QuackBehavior</OriginalElement>
+              <nodes>
+                <node x="0.0" y="114.5">strategy_pattern.MuteQuack</node>
+                <node x="160.0" y="114.5">strategy_pattern.Quack</node>
+                <node x="241.5" y="0.0">strategy_pattern.QuackBehavior</node>
+                <node x="320.0" y="103.0">strategy_pattern.RubberDuck</node>
+                <node x="486.0" y="114.5">strategy_pattern.Squeak</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="strategy_pattern.RubberDuck" target="strategy_pattern.QuackBehavior">
+                  <point x="0.0" y="-38.0" />
+                  <point x="393.0" y="83.0" />
+                  <point x="329.0" y="83.0" />
+                  <point x="17.5" y="26.5" />
+                </edge>
+                <edge source="strategy_pattern.Squeak" target="strategy_pattern.QuackBehavior">
+                  <point x="0.0" y="-26.5" />
+                  <point x="556.0" y="73.0" />
+                  <point x="364.0" y="73.0" />
+                  <point x="52.5" y="26.5" />
+                </edge>
+                <edge source="strategy_pattern.Quack" target="strategy_pattern.QuackBehavior">
+                  <point x="0.0" y="-26.5" />
+                  <point x="230.0" y="83.0" />
+                  <point x="294.0" y="83.0" />
+                  <point x="-17.5" y="26.5" />
+                </edge>
+                <edge source="strategy_pattern.MuteQuack" target="strategy_pattern.QuackBehavior">
+                  <point x="0.0" y="-26.5" />
+                  <point x="70.0" y="73.0" />
+                  <point x="259.0" y="73.0" />
+                  <point x="-52.5" y="26.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-394.0" y="-18.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MiniDuckSimulator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy_pattern/MiniDuckSimulator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MallardDuck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy_pattern/MallardDuck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <folding>
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/strategy_pattern/FlyBehavior.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/FlyWithWings.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/FlyNoWay.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/QuackBehavior.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/Quack.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/MuteQuack.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/Squeak.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/Duck.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/ModelDuck.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/FlyRocketPowered.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/MiniDuckSimulator.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/MallardDuck.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/RubberDuck.java" />
+        <option value="$PROJECT_DIR$/src/strategy_pattern/RedheadDuck.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategy_pattern.MiniDuckSimulator" />
+      <module name="DesignPattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MiniDuckSimulator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3caffcf-4b33-42e2-8695-6b8c5f24a1f9" name="Default" comment="" />
+      <created>1533094502429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533094502429</updated>
+      <workItem from="1533094514835" duration="8143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8143000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Dependency Viewer" visible="true" weight="0.32960895" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959914" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="right" id="Mybatis datasource" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959914" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/Quack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/MuteQuack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/Squeak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/FlyWithWings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/strategy_pattern.FlyNoWay">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>strategy_pattern.FlyNoWay</OriginalElement>
+          <nodes>
+            <node x="" y="">strategy_pattern.FlyBehavior</node>
+            <node x="" y="">strategy_pattern.FlyNoWay</node>
+            <node x="" y="">strategy_pattern.FlyWithWings</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="57.0" y="55.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/FlyNoWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/FlyRocketPowered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/ModelDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/MallardDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/MiniDuckSimulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/RedheadDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/RubberDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/FlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/strategy_pattern.FlyBehavior">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>strategy_pattern.FlyBehavior</OriginalElement>
+          <nodes>
+            <node x="0.0" y="103.0">strategy_pattern.FlyNoWay</node>
+            <node x="141.5" y="0.0">strategy_pattern.FlyBehavior</node>
+            <node x="283.0" y="103.0">strategy_pattern.FlyRocketPowered</node>
+            <node x="138.0" y="103.0">strategy_pattern.FlyWithWings</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="strategy_pattern.FlyWithWings" target="strategy_pattern.FlyBehavior">
+              <point x="0.0" y="-26.5" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="strategy_pattern.FlyNoWay" target="strategy_pattern.FlyBehavior">
+              <point x="0.0" y="-26.5" />
+              <point x="59.0" y="78.0" />
+              <point x="161.16666666666666" y="78.0" />
+              <point x="-39.33333333333334" y="26.5" />
+            </edge>
+            <edge source="strategy_pattern.FlyRocketPowered" target="strategy_pattern.FlyBehavior">
+              <point x="0.0" y="-26.5" />
+              <point x="360.0" y="78.0" />
+              <point x="239.83333333333337" y="78.0" />
+              <point x="39.33333333333337" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-405.0" y="-18.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy_pattern/QuackBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/strategy_pattern.QuackBehavior">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>strategy_pattern.QuackBehavior</OriginalElement>
+          <nodes>
+            <node x="0.0" y="114.5">strategy_pattern.MuteQuack</node>
+            <node x="160.0" y="114.5">strategy_pattern.Quack</node>
+            <node x="241.5" y="0.0">strategy_pattern.QuackBehavior</node>
+            <node x="320.0" y="103.0">strategy_pattern.RubberDuck</node>
+            <node x="486.0" y="114.5">strategy_pattern.Squeak</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="strategy_pattern.RubberDuck" target="strategy_pattern.QuackBehavior">
+              <point x="0.0" y="-38.0" />
+              <point x="393.0" y="83.0" />
+              <point x="329.0" y="83.0" />
+              <point x="17.5" y="26.5" />
+            </edge>
+            <edge source="strategy_pattern.Squeak" target="strategy_pattern.QuackBehavior">
+              <point x="0.0" y="-26.5" />
+              <point x="556.0" y="73.0" />
+              <point x="364.0" y="73.0" />
+              <point x="52.5" y="26.5" />
+            </edge>
+            <edge source="strategy_pattern.Quack" target="strategy_pattern.QuackBehavior">
+              <point x="0.0" y="-26.5" />
+              <point x="230.0" y="83.0" />
+              <point x="294.0" y="83.0" />
+              <point x="-17.5" y="26.5" />
+            </edge>
+            <edge source="strategy_pattern.MuteQuack" target="strategy_pattern.QuackBehavior">
+              <point x="0.0" y="-26.5" />
+              <point x="70.0" y="73.0" />
+              <point x="259.0" y="73.0" />
+              <point x="-52.5" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-394.0" y="-18.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/strategy_pattern.Duck">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>strategy_pattern.Duck</OriginalElement>
+          <nodes>
+            <node x="0.0" y="301.0">strategy_pattern.RedheadDuck</node>
+            <node x="179.24999999999994" y="0.0">strategy_pattern.Duck</node>
+            <node x="506.99999999999994" y="289.5">strategy_pattern.RubberDuck</node>
+            <node x="165.99999999999994" y="289.0">strategy_pattern.MallardDuck</node>
+            <node x="339.99999999999994" y="289.0">strategy_pattern.ModelDuck</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="strategy_pattern.RedheadDuck" target="strategy_pattern.Duck">
+              <point x="0.0" y="-26.5" />
+              <point x="73.0" y="264.0" />
+              <point x="216.49999999999994" y="264.0" />
+              <point x="-111.75" y="119.5" />
+            </edge>
+            <edge source="strategy_pattern.RubberDuck" target="strategy_pattern.Duck">
+              <point x="0.0" y="-38.0" />
+              <point x="580.0" y="264.0" />
+              <point x="439.99999999999994" y="264.0" />
+              <point x="111.75" y="119.5" />
+            </edge>
+            <edge source="strategy_pattern.ModelDuck" target="strategy_pattern.Duck">
+              <point x="0.0" y="-38.5" />
+              <point x="413.49999999999994" y="264.0" />
+              <point x="365.49999999999994" y="264.0" />
+              <point x="37.25" y="119.5" />
+            </edge>
+            <edge source="strategy_pattern.MallardDuck" target="strategy_pattern.Duck">
+              <point x="0.0" y="-38.5" />
+              <point x="242.99999999999994" y="264.0" />
+              <point x="290.99999999999994" y="264.0" />
+              <point x="-37.25" y="119.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="38.5" y="112.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Inner Classes</Category>
+            <Category>Methods</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
